@@ -67,6 +67,6 @@ To create a simple and clean user interface for booking appointments with doctor
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/niroggyan-frontend.git
+git clone https://github.com/Jasswanth-dev/niroogyan-assignment.git
 cd niroggyan-frontend
 npm start
