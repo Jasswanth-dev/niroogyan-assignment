@@ -1,0 +1,14 @@
+.profile-bg-container{
+    padding: 20px;
+}
+
+.detailed-profile{
+    height: 200px;
+    width: 200px;
+    margin-right: 20px;
+}
+
+.profile-book-btn{
+    display: flex;
+    justify-content: center;
+}

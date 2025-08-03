@@ -1,70 +1,72 @@
-# Getting Started with Create React App
+# 🏥 NirogGyan - Healthcare Appointment Booking (Frontend Only)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a responsive frontend application built with **React.js**, designed to allow users to view available doctors, check their availability, and book appointments. This submission covers only the frontend part using static data without any backend/server.
 
-## Available Scripts
+## 🚀 Demo
 
-In the project directory, you can run:
+Live preview: _Add your Vercel/Netlify link here (if deployed)_
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 📌 Objective
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+To create a simple and clean user interface for booking appointments with doctors, fulfilling the following features:
 
-### `npm test`
+- Doctor list with search functionality
+- Doctor profile view with details and availability
+- Simple form to book an appointment
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## 🧰 Tech Stack Used
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **React.js** (Functional Components + Hooks)
+- **JavaScript** (No TypeScript)
+- **React Router DOM** – for client-side routing
+- **CSS** – for basic styling
+- **Static JSON data** – used in place of a real backend
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 📁 Project Structure
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 💡 Features
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- Clean landing page showing a list of doctors
+- Each doctor card links to a detailed profile
+- Appointment booking form with basic fields (Name, Email, Date/Time)
+- Client-side validation (basic)
+- Responsive layout for mobile and desktop
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+---
 
-## Learn More
+## ✨ Improvements with More Time
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- Implement a real backend using **Node.js/Express**
+- Store appointment data in a database (e.g., MongoDB/PostgreSQL)
+- Add user authentication (Login/Signup)
+- Email confirmation for appointments
+- Form validation using Formik or React Hook Form
+- UI enhancements using **Tailwind CSS** or Material UI
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
+## 🧱 Challenges Faced
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- Designing a structured layout that works on multiple devices
+- Managing state across components without global state libraries
+- Simulating backend responses with static JSON data
 
-### Analyzing the Bundle Size
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## 🛠 Setup Instructions
 
-### Making a Progressive Web App
+### 1. Clone the Repository
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```bash
+git clone https://github.com/your-username/niroggyan-frontend.git
+cd niroggyan-frontend
+npm start
